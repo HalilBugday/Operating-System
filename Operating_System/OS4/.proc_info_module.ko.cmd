@@ -1,0 +1,1 @@
+cmd_/home/halil/Desktop/HW4/HW4/proc_info_module.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/halil/Desktop/HW4/HW4/proc_info_module.ko /home/halil/Desktop/HW4/HW4/proc_info_module.o /home/halil/Desktop/HW4/HW4/proc_info_module.mod.o;  true

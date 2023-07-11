@@ -1,0 +1,1 @@
+cmd_/home/halil/Desktop/HW4/HW4/proc_info_module.mod := printf '%s\n'   proc_info_module.o | awk '!x[$$0]++ { print("/home/halil/Desktop/HW4/HW4/"$$0) }' > /home/halil/Desktop/HW4/HW4/proc_info_module.mod
